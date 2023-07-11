@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+/* some fonts and styles that apply to multiple items */
+
+.header,
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.header,
+.cards,
+.quote,
+.action,
+.footer {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+}
+
+.hero-text,
+.logo {
+    color: #f9faf8;
+}
+
+.logo,
+.main-button,
+.author,
+.action-header {
+    font-weight: bold;
+}
+
+.main-button,
+.action-box,
+.second-button {
+    background-color: #3882f6;
+    color: white;
+}
+
+.main-button,
+.second-button {
+    border-radius: 4px;
+    padding: 4px 12px;
+}
+
+.title,
+.quote {
+    color: #1f2937;
+}
+
+/* styles for header parent and child containers */
+.header {
+    /* border: 2px solid purple; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.nav {
+    /* border: 2px dotted red; */
+    display: flex;
+    justify-content: space-between;
+    vertical-align: center;
+    padding-top: 12px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.links {
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero {
+    /* border: 2px solid pink; */
+    display: flex;
+    margin-top: 80px;
+}
+
+.hero-left {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 20px;
+}
+
+.hero-text{
+    font-size: 48px;
+    font-weight: bolder;
+    padding-bottom: 12px;
+}
+
+.secondary-text {
+    padding-bottom: 8px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.main-button {
+    width: 120px;
+    border: none;
+}
+
+.main-image {
+    /* border: 2px solid red; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;
+    justify-content: center;
+    background-color: #737373;
+}
+
+.placeholder {
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: center;
+    vertical-align: center;
+}
+
+/* styles for cards parent and child containers */
+
+.cards {
+    border: 2px solid purple;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    vertical-align: center;
+    justify-content: center;
+}
+
+.title {
+    /* border: 2px dotted green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.image-row {
+    /* border: 2px dotted blue; */
+    display: flex;
+    justify-content: center;
+    padding-top: 36px;
+}
+
+.card {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-img {
+    /* border: 2px solid green; */
+    max-width: 100px;
+    height: auto;
+}
+
+.subtext {
+    /* border: 2px solid gray; */
+    text-align: center;
+}
+
+/* styles for quote parent and child containers */
+
+.quote {
+    /* border: 2px solid green; */
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.text {
+    /* border: 2px dotted purple; */
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    padding-bottom: 16px;
+}
+
+.author {
+    /* border: 2px dotted cyan; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* styles for action parent and child containers */
+
+.action {
+    /* border: 2px solid yellow; */
+    padding-top: 60px;
+}
+
+.action-box {
+    /* border: 2px dotted #8b32a8; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px;
+}
+
+.text-container {
+    /* border: 2px dotted purple; */
+    color: white;
+    padding: 4px 20px;
+}
+
+.action-header {
+    font-size: small;
+}
+
+.more-text {
+    font-size: smaller;
+}
+
+.second-button {
+    border: 1px solid white;
+    width: 100px;
+    font-size: smaller;
+}
+
+/* styles for footer */
+
+.footer {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    font-size: small;
+}

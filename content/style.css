@@ -147,7 +147,7 @@ a {
 /* styles for cards parent and child containers */
 
 .cards {
-    /* border: 2px solid purple; */
+    border: 2px solid purple;
     display: flex;
     flex-direction: column;
     padding-top: 40px;
