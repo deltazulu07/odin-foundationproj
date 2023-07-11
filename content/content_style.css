@@ -23,9 +23,9 @@ body {
 .quote,
 .action,
 .footer {
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-bottom: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
 }
 
 .hero-text,
@@ -72,7 +72,7 @@ body {
 .q-content,
 .action-box {
     /* border: 2px solid cyan; */
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -80,12 +80,13 @@ body {
     /* border: 2px dotted red; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding-top: 12px;
 }
 
-.logo {
-    font-size: 24px;
+.logo-div {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .links {
@@ -99,7 +100,6 @@ ul {
 }
 
 a {
-    text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -116,16 +116,17 @@ a {
     flex-direction: column;
     flex: 1;
     padding-right: 20px;
+    min-width: 300px;
 }
 
 .hero-text{
-    font-size: 48px;
+    font-size: 36px;
     font-weight: bolder;
     padding-bottom: 12px;
 }
 
 .secondary-text {
-    padding-bottom: 8px;
+    padding-bottom: 16px;
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -142,7 +143,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #737373;
+    /* background-color: #737373; */
 }
 
 .placeholder {
@@ -150,6 +151,11 @@ a {
     /* border: 2px solid blue; */
     justify-content: center;
     align-items: center;
+}
+
+.hero-img {
+    width: 600px;
+    height: auto;
 }
 
 /* styles for cards parent and child containers */
@@ -205,15 +211,15 @@ a {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    padding-top: 80px;
+    padding-top: 40px;
 }
 
 .text {
     /* border: 2px dotted purple; */
-    font-size: 36px;
+    font-size: 32px;
     font-weight: light;
     font-style: italic;
-    padding-bottom: 16px;
+    padding-bottom: 12px;
 }
 
 .author {
@@ -226,7 +232,7 @@ a {
 
 .action {
     /* border: 2px solid yellow; */
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 .action-box {
