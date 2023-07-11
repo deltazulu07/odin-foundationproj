@@ -65,14 +65,22 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    vertical-align: center;
+}
+
+.h-content,
+.c-content,
+.q-content,
+.action-box {
+    /* border: 2px solid cyan; */
+    max-width: 1000px;
+    margin: auto;
 }
 
 .nav {
     /* border: 2px dotted red; */
     display: flex;
     justify-content: space-between;
-    vertical-align: center;
+    align-items: center;
     padding-top: 12px;
 }
 
@@ -132,7 +140,7 @@ a {
     flex: 1;
     display: flex;
     flex-direction: column;
-    vertical-align: center;
+    align-items: center;
     justify-content: center;
     background-color: #737373;
 }
@@ -141,17 +149,17 @@ a {
     display: flex;
     /* border: 2px solid blue; */
     justify-content: center;
-    vertical-align: center;
+    align-items: center;
 }
 
 /* styles for cards parent and child containers */
 
 .cards {
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     display: flex;
     flex-direction: column;
     padding-top: 40px;
-    vertical-align: center;
+    align-items: center;
     justify-content: center;
 }
 
