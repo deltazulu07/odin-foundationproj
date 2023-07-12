@@ -189,8 +189,9 @@ a {
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    flex: 1;
 }
 
 .card-img {
@@ -202,6 +203,7 @@ a {
 .subtext {
     /* border: 2px solid gray; */
     text-align: center;
+    padding-top: 16px;
 }
 
 /* styles for quote parent and child containers */
